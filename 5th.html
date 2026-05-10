@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Form Validation</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            background-color: lightgray;
+            padding: 20px;
+        }
+
+        form{
+            background-color: white;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        input{
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+
+        button{
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h2>User Registration Form</h2>
+
+    <form onsubmit="return validateForm()">
+
+        <label>Name:</label>
+        <input type="text" id="name">
+
+        <label>Email:</label>
+        <input type="text" id="email">
+
+        <button type="submit">
+            Submit
+        </button>
+
+    </form>
+
+    <script>
+
+        function validateForm()
+        {
+
+            // Get input values
+            let name =
+            document.getElementById("name").value;
+
+            let email =
+            document.getElementById("email").value;
+
+
+            // Check empty fields
+            if(name == "" || email == "")
+            {
+                alert("Please fill all fields");
+                return false;
+            }
+
+
+            // Validate email format
+            if(!email.includes("@"))
+            {
+                alert("Invalid Email Format");
+                return false;
+            }
+
+
+            // Success message
+            alert("Form Submitted Successfully");
+
+            return true;
+        }
+
+    </script>
+
+</body>
+
+</html>
