@@ -1,0 +1,360 @@
+. Personal Details Web Page Using Formatting Tags
+Aim
+
+To create a simple HTML webpage displaying personal details using text formatting tags.
+
+Objective
+To understand HTML structure
+To learn text formatting tags
+To display styled text on webpage
+Background
+
+HTML (HyperText Markup Language) is used to create webpages. Formatting tags improve text appearance and readability.
+
+Theory
+
+HTML formatting tags are used to style text content. Common tags include:
+
+<b> → Bold
+<i> → Italic
+<u> → Underline
+<sup> → Superscript
+<sub> → Subscript
+
+These tags help present content clearly and attractively.
+
+Syntax
+<b>Bold Text</b>
+<i>Italic Text</i>
+<u>Underline</u>
+Conclusion
+
+Thus, a webpage displaying personal details using HTML formatting tags was created successfully.
+
+2. Web Page with Image, Hyperlink, and Nested Table
+Aim
+
+To design a webpage containing image, hyperlink, and nested table.
+
+Objective
+To learn image insertion
+To create hyperlinks
+To understand nested tables
+Background
+
+HTML provides multimedia and table elements to organize webpage content effectively.
+
+Theory
+<img> displays images
+<a> creates hyperlinks
+<table> organizes tabular data
+
+Nested tables are tables placed inside another table.
+
+Syntax
+<img src="image.jpg">
+
+<a href="https://example.com">
+Visit
+</a>
+Conclusion
+
+Thus, a webpage with image, hyperlink, and nested table was created successfully.
+
+3. HTML Form for User Details
+Aim
+
+To create an HTML form to collect user details.
+
+Objective
+To understand HTML forms
+To collect user input
+To use form controls
+Background
+
+Forms are used in websites for registration, login, and feedback purposes.
+
+Theory
+
+HTML forms collect user data using:
+
+text fields
+radio buttons
+date inputs
+submit buttons
+Syntax
+<form>
+<input type="text">
+<input type="submit">
+</form>
+Conclusion
+
+Thus, an HTML form for collecting user information was created successfully.
+
+4. Inline, Internal, and External CSS
+Aim
+
+To apply inline, internal, and external CSS styles to a webpage.
+
+Objective
+To understand CSS types
+To style webpage elements
+To improve webpage design
+Background
+
+CSS (Cascading Style Sheets) controls webpage appearance and layout.
+
+Theory
+Types of CSS
+Inline CSS
+Internal CSS
+External CSS
+
+CSS is used for:
+
+colors
+fonts
+borders
+spacing
+Syntax
+<p style="color:red;">
+Text
+</p>
+Conclusion
+
+Thus, different types of CSS were applied successfully to style the webpage.
+
+5. Responsive Web Page Using Bootstrap
+Aim
+
+To design a responsive webpage using Bootstrap components.
+
+Objective
+To learn Bootstrap Grid System
+To use navbar, cards, and buttons
+To create responsive layouts
+Background
+
+Bootstrap
+ is a CSS framework used for responsive web development.
+
+Theory
+
+Bootstrap provides:
+
+responsive grid system
+pre-designed components
+mobile-friendly layouts
+
+Components:
+
+Navbar
+Cards
+Buttons
+Syntax
+<div class="row">
+<div class="col-md-4">
+Conclusion
+
+Thus, a responsive webpage using Bootstrap components was created successfully.
+
+6. JavaScript Form Validation
+Aim
+
+To validate form inputs using JavaScript.
+
+Objective
+To check empty fields
+To validate email format
+To prevent invalid submissions
+Background
+
+Validation ensures correct user input before sending data to server.
+
+Theory
+
+JavaScript performs client-side validation using conditions and functions.
+
+Validation checks:
+
+empty fields
+proper email structure
+Syntax
+if(name == "")
+{
+   alert("Enter Name");
+}
+Conclusion
+
+Thus, form validation using JavaScript was implemented successfully.
+
+7. JavaScript DOM Manipulation
+Aim
+
+To dynamically display and update webpage content using DOM manipulation.
+
+Objective
+To understand DOM
+To modify webpage dynamically
+To respond to user interaction
+Background
+
+DOM (Document Object Model) represents HTML elements as objects accessible through JavaScript.
+
+Theory
+
+JavaScript DOM methods:
+
+getElementById()
+innerHTML
+
+allow dynamic content updates.
+
+Syntax
+document.getElementById("demo")
+.innerHTML = "Hello";
+Conclusion
+
+Thus, webpage content was dynamically updated using JavaScript DOM manipulation.
+
+8. JavaScript Calculator Using Switch-Case
+Aim
+
+To develop a simple calculator using JavaScript.
+
+Objective
+To perform arithmetic operations
+To use switch-case statements
+To understand JavaScript functions
+Background
+
+Calculators perform mathematical operations based on user input.
+
+Theory
+
+Switch-case selects operations:
+
+addition
+subtraction
+multiplication
+division
+
+Functions improve code organization.
+
+Syntax
+switch(operator)
+{
+   case "+":
+}
+Conclusion
+
+Thus, a simple calculator using JavaScript and switch-case was developed successfully.
+
+9. PHP Welcome Message with Date and Time
+Aim
+
+To display a welcome message with current system date and time using PHP.
+
+Objective
+To understand PHP basics
+To display dynamic output
+To use date functions
+Background
+
+PHP is a server-side scripting language for dynamic webpages.
+
+Theory
+
+PHP uses:
+
+echo for output
+date() for displaying date and time
+Syntax
+echo date("d-m-Y");
+Conclusion
+
+Thus, a PHP program displaying current date and time was executed successfully.
+
+10. PHP Program Using POST Method
+Aim
+
+To create a PHP program using POST method to display submitted form data.
+
+Objective
+To understand form handling
+To use POST method
+To retrieve user input
+Background
+
+POST method securely sends form data from browser to server.
+
+Theory
+
+PHP uses:
+
+$_POST[]
+
+to access submitted data.
+
+Syntax
+$name = $_POST['name'];
+Conclusion
+
+Thus, user input was collected and displayed successfully using POST method.
+
+11. PHP String Manipulation
+Aim
+
+To perform string manipulation operations in PHP.
+
+Objective
+To find string length
+To reverse strings
+To extract substrings
+Background
+
+Strings are sequences of characters used in text processing.
+
+Theory
+
+PHP string functions:
+
+strlen()
+strrev()
+substr()
+
+perform different operations on strings.
+
+Syntax
+strlen($str);
+strrev($str);
+substr($str,0,3);
+Conclusion
+
+Thus, different string manipulation operations were performed successfully using PHP.
+
+12. PHP Arrays and Loops
+Aim
+
+To store multiple values in arrays and display them using loops.
+
+Objective
+To understand arrays
+To use loops
+To display multiple values efficiently
+Background
+
+Arrays store multiple values in a single variable.
+
+Theory
+
+Loops such as foreach are used to access array elements one by one.
+
+Syntax
+foreach($arr as $value)
+{
+   echo $value;
+}
+Conclusion
+
+Thus, array elements were displayed successfully using loops in PHP.
